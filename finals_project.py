@@ -5,80 +5,10 @@ accounts = {}
 def hello_world(y): 
     
     print()
-    print(f"hello {y}, did you know that printing 'hello world' in python is very common in programming")
     print("Hello world")
     print()
-    print("**print()** is a built in function in python, just insert quotation marks inside the the parentheses("")")
     
-
-
-def activity2(): 
-    x = input("enter your name: ")
-    y = input("enter your age : ")
-    z = input("enter your hobby : ")
-    yy = input("enter your goals : ")
-    print()
-    print(f"hello my name is {x}, and I'm {y} years old. my favorite hobby is {z}, and the goal i root the most is {yy}")
-    print()
     
-
-def activity3(): 
-    # Collecting user information
-    name = input("PLEASE INPUT YOUR NAME: ")
-    nickname = input("PLEASE INPUT YOUR NICKNAME: ")
-    age = input("PLEASE INPUT YOUR AGE: ")
-    birth_month = input("PLEASE INPUT YOUR BIRTHMONTH: ")
-    birth_day = input("PLEASE INPUT YOUR BIRTHDAY: ")
-    birth_year = input("PLEASE INPUT YOUR BIRTHYEAR: ")
-    gender = input("PLEASE INPUT YOUR GENDER: ")
-    address = input("PLEASE INPUT YOUR ADDRESS: ")
-    nationality = input("PLEASE INPUT YOUR NATIONALITY: ")
-    is_married = False  # Default value
-    civil_status = input("PLEASE INPUT YOUR CIVIL STATUS: ")
-    religion = input("PLEASE INPUT YOUR RELIGION: ")
-    citizenship = input("PLEASE INPUT YOUR CITIZENSHIP: ")
-    height = input("PLEASE INPUT YOUR HEIGHT: ")
-    weight = input("PLEASE INPUT YOUR WEIGHT: ")
-    father_name = input("PLEASE INPUT YOUR FATHER'S NAME: ")
-    father_occupation = input("PLEASE INPUT YOUR FATHER'S OCCUPATION: ")
-    father_contact = input("PLEASE INPUT YOUR FATHER'S CONTACT NUMBER: ")
-    mother_name = input("PLEASE INPUT YOUR MOTHER'S NAME: ")
-    mother_occupation = input("PLEASE INPUT YOUR MOTHER'S OCCUPATION: ")
-    mother_contact = input("PLEASE INPUT YOUR MOTHER'S CONTACT NUMBER: ")
-    elementary = input("PLEASE INPUT YOUR ELEMENTARY SCHOOL: ")
-    elementary_year_start = input("PLEASE INPUT THE YEAR YOU STARTED ELEMENTARY: ")
-    elementary_year_end = input("PLEASE INPUT THE YEAR YOU ENDED ELEMENTARY: ")
-    high_school = input("PLEASE INPUT YOUR HIGH SCHOOL: ")
-    high_school_year_start = input("PLEASE INPUT THE YEAR YOU STARTED HIGH SCHOOL: ")
-    high_school_year_end = input("PLEASE INPUT THE YEAR YOU ENDED HIGH SCHOOL: ")
-    college = input("PLEASE INPUT YOUR COLLEGE: ")
-    course = input("PLEASE INPUT YOUR COURSE: ")
-    skills = input("PLEASE INPUT YOUR SKILLS: ")
-
-    # displaying the collected information
-    print(f"""
-    My name is {name}, and I am often referred to as {nickname}.
-    I am {age} years old, born in {birth_month} on {birth_day}, {birth_year}.
-    I currently reside at {address}.
-    I am {gender} by gender, and my religion is {religion}.
-    My nationality is {nationality}, and I hold {citizenship} citizenship.
-    It is {is_married} that I am married, and my civil status is {civil_status}.
-    My height is {height} cm, and I weigh {weight} kg.
-
-    My father is {father_name}, who works as a {father_occupation}.
-    He can be reached at {father_contact}.
-    My mother is {mother_name}, who is employed as a {mother_occupation}.
-    She can be reached at {mother_contact}.
-
-    In terms of my educational background:
-    - I completed my elementary education at {elementary} from {elementary_year_start} to {elementary_year_end}.
-    - I then attended high school at {high_school} from {high_school_year_start} to {high_school_year_end}.
-    - I pursued higher education at {college}, where I studied {course}.
-
-    I have developed skills in {skills}. Developing these skills will help me navigate complex situations, enhance my professional growth, and contribute more effectively to achieving my goals.
-    """)
- 
-
 def activity4(): #arithmetic
     A = eval(input("Enter a number: "))
     B = eval(input("Enter another number: "))
@@ -97,7 +27,14 @@ def activity4(): #arithmetic
     print(f"{A} Exponent by {B}, is {G}")
     
 
-
+def activity2(): 
+    x = input("enter your name: ")
+    y = input("enter your age : ")
+    z = input("enter your hobby : ")
+    yy = input("enter your goals : ")
+    print()
+    print(f"hello my name is {x}, and I'm {y} years old. my favorite hobby is {z}, and the goal i root the most is {yy}")
+    print()
 
 
 def activity5(): #arithmetic operations
@@ -255,7 +192,62 @@ def activity15(): #for loop
         for b in range(11,x,-1):
             print(end=" ")
         print("* " * x)
+def activity3(): 
+    # Collecting user information
+    name = input("PLEASE INPUT YOUR NAME: ")
+    nickname = input("PLEASE INPUT YOUR NICKNAME: ")
+    age = input("PLEASE INPUT YOUR AGE: ")
+    birth_month = input("PLEASE INPUT YOUR BIRTHMONTH: ")
+    birth_day = input("PLEASE INPUT YOUR BIRTHDAY: ")
+    birth_year = input("PLEASE INPUT YOUR BIRTHYEAR: ")
+    gender = input("PLEASE INPUT YOUR GENDER: ")
+    address = input("PLEASE INPUT YOUR ADDRESS: ")
+    nationality = input("PLEASE INPUT YOUR NATIONALITY: ")
+    is_married = False  # Default value
+    civil_status = input("PLEASE INPUT YOUR CIVIL STATUS: ")
+    religion = input("PLEASE INPUT YOUR RELIGION: ")
+    citizenship = input("PLEASE INPUT YOUR CITIZENSHIP: ")
+    height = input("PLEASE INPUT YOUR HEIGHT: ")
+    weight = input("PLEASE INPUT YOUR WEIGHT: ")
+    father_name = input("PLEASE INPUT YOUR FATHER'S NAME: ")
+    father_occupation = input("PLEASE INPUT YOUR FATHER'S OCCUPATION: ")
+    father_contact = input("PLEASE INPUT YOUR FATHER'S CONTACT NUMBER: ")
+    mother_name = input("PLEASE INPUT YOUR MOTHER'S NAME: ")
+    mother_occupation = input("PLEASE INPUT YOUR MOTHER'S OCCUPATION: ")
+    mother_contact = input("PLEASE INPUT YOUR MOTHER'S CONTACT NUMBER: ")
+    elementary = input("PLEASE INPUT YOUR ELEMENTARY SCHOOL: ")
+    elementary_year_start = input("PLEASE INPUT THE YEAR YOU STARTED ELEMENTARY: ")
+    elementary_year_end = input("PLEASE INPUT THE YEAR YOU ENDED ELEMENTARY: ")
+    high_school = input("PLEASE INPUT YOUR HIGH SCHOOL: ")
+    high_school_year_start = input("PLEASE INPUT THE YEAR YOU STARTED HIGH SCHOOL: ")
+    high_school_year_end = input("PLEASE INPUT THE YEAR YOU ENDED HIGH SCHOOL: ")
+    college = input("PLEASE INPUT YOUR COLLEGE: ")
+    course = input("PLEASE INPUT YOUR COURSE: ")
+    skills = input("PLEASE INPUT YOUR SKILLS: ")
 
+    # displaying the collected information
+    print(f"""
+    My name is {name}, and I am often referred to as {nickname}.
+    I am {age} years old, born in {birth_month} on {birth_day}, {birth_year}.
+    I currently reside at {address}.
+    I am {gender} by gender, and my religion is {religion}.
+    My nationality is {nationality}, and I hold {citizenship} citizenship.
+    It is {is_married} that I am married, and my civil status is {civil_status}.
+    My height is {height} cm, and I weigh {weight} kg.
+
+    My father is {father_name}, who works as a {father_occupation}.
+    He can be reached at {father_contact}.
+    My mother is {mother_name}, who is employed as a {mother_occupation}.
+    She can be reached at {mother_contact}.
+
+    In terms of my educational background:
+    - I completed my elementary education at {elementary} from {elementary_year_start} to {elementary_year_end}.
+    - I then attended high school at {high_school} from {high_school_year_start} to {high_school_year_end}.
+    - I pursued higher education at {college}, where I studied {course}.
+
+    I have developed skills in {skills}. Developing these skills will help me navigate complex situations, enhance my professional growth, and contribute more effectively to achieving my goals.
+    """)
+ 
     
 def activity16(): #for loop
     t = int(input("Enter a number range: "))
@@ -450,7 +442,7 @@ def code_challenge5(P): #assignment operators
     I = HH//1
     II = HH%1
 
-    print(f"THANK YOU,",name.upper(),"! The breakdown of your deposit(₱",P,"), is shown below:")
+    print(f"THANK YOU,","! The breakdown of your deposit(₱",P,"), is shown below:")
     print()
     print("1000---",A)
     print("500----",B)
